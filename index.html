@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDNF</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centered">
+        <div class="input-group">
+            <div class="supgroup-text supgroup-all">
+                <span class="input-group-text" id="basic-addon1">Формула</span>
+            </div>
+            <div class="supgroup-input supgroup-all">
+                <input type="text" class="input-formula" id="probablySDNF">
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="btn checkSDNF-button" onclick=" run()">ПРОВЕРИТЬ НА СДНФ</button>
+            <button class="btn generate-button" onclick="generate()">СГЕНЕРИРОВАТЬ</button>
+        </div>
+    </div> 
+
+<script defer src="checkSDNF.js"></script>  
+<script src="generator.js"></script>
+</body>
+</html>
